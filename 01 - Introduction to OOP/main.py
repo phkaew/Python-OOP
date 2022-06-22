@@ -14,7 +14,7 @@ class Item:
         return x * y
 
 # How to create an instance of a class
-item1 = Item()
+item1 = Item('Phone',20,5)
 
 # Assign attributes:
 # item1.name = "Phone"
@@ -25,7 +25,7 @@ item1 = Item()
 print(item1.calculate_total_price(item1.price, item1.quantity))
 
 # How to create an instance of a class (We could create as much as instances we'd like to)
-item2 = Item()
+item2 = Item('Laptop',4,3)
 
 # Assign attributes
 # item2.name = "Laptop"
